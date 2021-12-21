@@ -1,0 +1,6 @@
+# this is a special file where "brownie" always look for to grab information about
+# where you're going to build, where you're going to deploy and where you're going to grab things 
+
+dotenv: .env # this tell hey when you run scripts grab the environment variables from ".env" file
+wallets:
+  from_key: ${PRIVATE_KEY} # this way of writing "automatically transformed it into environment variable"
